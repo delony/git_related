@@ -1,0 +1,21 @@
+$git branch --set-upstream-to=origin/<branch> <local branch>
+//set tracking information between local branch and remote branch
+
+$ git reflog
+//check the history for each git action. can be used to find the correct commit via collaborate with "git reset"
+such as£º
+  502dd0f HEAD@{0}: HEAD~1: updating HEAD 
+  147b3b5 HEAD@{1}: commit: test3
+  502dd0f HEAD@{2}: commit: test2
+  0692c03 HEAD@{3}: commit (initial): test1  
+$git reset --hard 147b3b5   
+// reset to "commit: test3", reset the HEAD index and job directory£¬all changes after "commit: test3" will be lost
+
+$git reset HEAD~2 
+//reset 2 head node on the gitk tree
+
+$gitk --all &
+//check the records for all commits
+
+$gitk & 
+//check the record for a single commit
