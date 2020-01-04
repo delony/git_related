@@ -1,6 +1,3 @@
-$git branch --set-upstream-to=origin/<branch> <local branch>
-//set tracking information between local branch and remote branch
-
 $ git reflog
 //check the history for each git action. can be used to find the correct commit via collaborate with "git reset"
 such as£º

@@ -1,0 +1,3 @@
+$git branch --set-upstream-to=origin/<branch> <local branch>
+//equal to $git branch -u origin/<branch> <local branch>
+//set tracking information between local branch and remote branch

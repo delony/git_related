@@ -1,0 +1,5 @@
+$git branch –d <branch name> 
+//delete branch, it will be failed due to the unmerged of local branch change
+
+$git branch -D <branch name>  
+//delete branch forcely, don't care if local change will be lost or not 

@@ -1,2 +1,0 @@
-$git branch –d <branch name>  //删除分支，如果该分支中有内容尚未合并，会导致本分支上的改动丢失
-$git branch -D <branch name>  //强制删除分支，不需要考虑本分支上的改动是否会丢失
