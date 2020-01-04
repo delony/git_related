@@ -1,4 +1,4 @@
-$git branch –d <branch name> 
+$git branch -d <branch name> 
 //delete branch, it will be failed due to the unmerged of local branch change
 
 $git branch -D <branch name>  
